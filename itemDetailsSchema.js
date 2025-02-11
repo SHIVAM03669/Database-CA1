@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const Schema = new mongoose.Schema({
     name: String,
     price: String,
-    required: true});
+    required: true
+});
 
 mongoose.exports = mongoose.model('Item', Schema);
